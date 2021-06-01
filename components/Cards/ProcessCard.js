@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
-export default function ProcessCard({ children, title, details }) {
+export default function ProcessCard({ title, details }) {
   return (
     <StyledCard>
       <StyledH4>{title}</StyledH4>
-      <StyledP>{details}</StyledP>
+      <p>{details}</p>
     </StyledCard>
   );
 }
 
 const StyledCard = styled.div`
   background: #ffffff;
-  box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+  box-shadow: 10px 10px 20px 3px rgba(39, 92, 141, 0.1);
   border-radius: 0.7rem;
   padding: calc(1.5rem + 0.3vw);
 `;
@@ -24,8 +24,8 @@ const StyledH4 = styled.h4`
   margin-bottom: 1rem;
 `;
 
-const StyledP = styled.p`
-  font-size: 1.1rem;
-  line-height: 2rem;
-  font-weight: 400;
-`;
+// const StyledP = styled.p`
+//   font-size: 1.1rem;
+//   line-height: 2rem;
+//   font-weight: 400;
+// `;

@@ -25,7 +25,7 @@ const processData = [
 
 export default function Process() {
   return (
-    <SectionLayout>
+    <SectionLayout title="Our Process">
       <StyledGrid>
         {processData.map((process) => (
           <ProcessCard key={process.id} {...process} />

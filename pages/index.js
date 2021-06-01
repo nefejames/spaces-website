@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header, Process, Hero } from "../sections";
+import { Header, Process, Hero, Team, CallToAction, Footer } from "../sections";
 
 export default function Home() {
   return (
@@ -16,6 +16,9 @@ export default function Home() {
       <Header />
       <Hero />
       <Process />
+      <Team />
+      <CallToAction />
+      <Footer />
     </div>
   );
 }

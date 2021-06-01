@@ -17,6 +17,12 @@ const GlobalStyle = createGlobalStyle`
   a{
     color: #23242a;
   }
+
+  p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+  font-weight: 400;
+  }
 `;
 
 export default GlobalStyle;

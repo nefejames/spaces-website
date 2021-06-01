@@ -1,3 +1,3 @@
-import LeaderCard from "./LeaderCard";
+import TeamCard from "./TeamCard";
 import ProcessCard from "./ProcessCard";
-export { LeaderCard, ProcessCard };
+export { TeamCard, ProcessCard };
