@@ -11,8 +11,9 @@ export default function Hero() {
           <StyledH1>Convallis turpis erat tempus, viverra aliquet.</StyledH1>
           <StyledButton>Get Started</StyledButton>
         </StyledCopy>
-
-        <StyledImageBox></StyledImageBox>
+        <StyledImageBox>
+          <Image src="/images/hero.jpg" layout="fill" />
+        </StyledImageBox>
       </StyledHeroContainer>
     </SectionLayout>
   );
@@ -40,6 +41,9 @@ const StyledImageBox = styled.div`
   max-width: 100%;
   height: 500px;
   background: #23242a;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
 `;
 
 // const StyledH1 = styled.h1`

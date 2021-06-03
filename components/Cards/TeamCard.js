@@ -1,9 +1,12 @@
+import Image from "next/image";
 import styled from "styled-components";
 
-export default function ProcessCard({ name, position }) {
+export default function TeamCard({ name, position, imageUrl }) {
   return (
     <StyledTeamContainer>
-      <StyledBox />
+      <StyledBox>
+        <Image src={imageUrl} layout="fill" />
+      </StyledBox>
       <StyledH4>{name}</StyledH4>
       <p>{position}</p>
     </StyledTeamContainer>
@@ -21,9 +24,11 @@ const StyledBox = styled.div`
   background: #ffc928;
   box-shadow: 10px 10px 20px 3px rgba(39, 92, 141, 0.1);
   /* box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1); */
-  border-radius: 0.7rem;
+  border-radius: 5px;
   height: 250px;
+  position: relative;
   margin-bottom: 1rem;
+  overflow: hidden;
 `;
 
 const StyledH4 = styled.h4`
