@@ -43,4 +43,5 @@ const StyledLi = styled.li`
 
 const StyledA = styled.a`
   text-decoration: none;
+  color: #23242a;
 `;

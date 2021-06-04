@@ -13,11 +13,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
     color: #23242a;
     font-family: 'Source Sans Pro', 'Roboto', sans-serif;
-  }
-
-  a{
-    color: #23242a;
-  }
+  }  
 
   p{
     font-size: 1.1rem;
