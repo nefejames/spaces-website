@@ -1,5 +1,16 @@
 import Head from "next/head";
-import { Header, Process, Hero, Team, CallToAction, Footer } from "../sections";
+import {
+  Header,
+  Process,
+  Hero,
+  Team,
+  Testimonials,
+  CallToAction,
+  Footer,
+} from "../sections";
+
+// use same padding for header like rest of SemiBoldText
+//remove box colors. est stuff on content layout shift with images
 
 export default function Home() {
   return (
@@ -17,6 +28,7 @@ export default function Home() {
       <Hero />
       <Process />
       <Team />
+      <Testimonials />
       <CallToAction />
       <Footer />
     </div>

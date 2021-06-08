@@ -41,7 +41,7 @@ export const StyledH4 = styled.h4``;
 
 export const BoldText = styled.p``;
 export const SemiBoldText = styled.p`
-  font-size: 2rem;
+  font-size: 1.6rem;
 `;
 
 export const SmallText = styled.p`

@@ -1,3 +1,4 @@
 import TeamCard from "./TeamCard";
 import ProcessCard from "./ProcessCard";
-export { TeamCard, ProcessCard };
+import TestimonialCard from "./TestimonialCard";
+export { TeamCard, ProcessCard, TestimonialCard };
