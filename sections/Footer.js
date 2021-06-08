@@ -126,7 +126,7 @@ const FooterGridChild = styled.div`
 
 const FooterHeading = styled(SmallText)`
   color: gray;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 `;
 
 const FooterUL = styled.ul``;
