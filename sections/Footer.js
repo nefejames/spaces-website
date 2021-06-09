@@ -86,14 +86,16 @@ export default function Footer() {
 const StyledFooter = styled.footer`
   background: #232424;
   color: #ffffff;
-  padding: 1rem;
+  padding: 1rem 0;
 `;
 
 const FooterSectionLayout = styled(SectionLayout)`
   background: red;
 `;
 
-const FooterCopy = styled.div``;
+const FooterCopy = styled.div`
+  margin-top: 0.6rem;
+`;
 
 const FooterSmallText = styled(SmallText)`
   color: gray;

@@ -15,6 +15,7 @@ const StyledSectionWrapper = styled.div`
   margin: 4rem auto;
 
   @media (min-width: 768px) {
+    padding: 0;
     margin: ${(props) => (props.smallMargin ? "7rem auto" : "10rem auto")};
   }
 `;

@@ -18,8 +18,11 @@ const StyledHeader = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  max-width: 1100px;
+  /* padding: 0 1rem; */
+  margin: 0 auto;
 
   @media (min-width: 768px) {
-    padding: 1rem 2rem;
+    padding: 2rem 0;
   }
 `;
