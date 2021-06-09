@@ -21,7 +21,7 @@ const StyledTeamContainer = styled.div`
 `;
 
 const StyledBox = styled.div`
-  background: #ffc928;
+  background: transparent;
   box-shadow: 10px 10px 20px 3px rgba(39, 92, 141, 0.1);
   /* box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1); */
   border-radius: 5px;

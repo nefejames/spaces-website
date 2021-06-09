@@ -39,14 +39,14 @@ const StyledUl = styled.ul`
     justify-content: start;
     background-color: #fff;
     position: fixed;
-    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
     right: 0;
     height: 80%;
     width: 100%;
     z-index: 2;
-    padding-top: 3.5rem;
+    padding-top: 6rem;
     transition: transform 0.3s ease-in-out;
+    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
   }
 `;
 

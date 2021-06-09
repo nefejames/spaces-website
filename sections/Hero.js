@@ -40,7 +40,7 @@ const StyledImageBox = styled.div`
   width: 500px;
   max-width: 100%;
   height: 500px;
-  background: #23242a;
+  background: transparent;
   position: relative;
   overflow: hidden;
   border-radius: 5px;

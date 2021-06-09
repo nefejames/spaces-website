@@ -11,7 +11,7 @@ const testimonialsData = [
       "Every single person comes away and says - wow that's a really slick experience, that was so easy to use. I feel so much less stressed as I now know we're doing everything by the book.",
     name: "Monkey D Luffy",
     position: "CEO, Pirates Schibukai",
-    img: "",
+    imageUrl: "/images/avatars/avatar1.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const testimonialsData = [
       "I feel so much less stressed  as I now know we're doing everything by the book.",
     name: "Nico Robin",
     position: "COO, Amazon Enterprises",
-    img: "",
+    imageUrl: "/images/avatars/avatar2.jpg",
   },
 ];
 
