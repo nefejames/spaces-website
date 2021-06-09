@@ -9,14 +9,11 @@ import {
   Footer,
 } from "../sections";
 
-// use same padding for header like rest of SemiBoldText
-//remove box colors. est stuff on content layout shift with images
-
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Landing Page</title>
+        <title>Spaces Website</title>
         <meta
           name="description"
           content="Landing page developed by Emadamerho-Atori Nefe aka daddynefs aka nefejames"
