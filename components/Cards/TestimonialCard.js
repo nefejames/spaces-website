@@ -48,7 +48,6 @@ const CircularImageBox = styled.div`
   /* width: 50px;
   height: 50px; */
   border-radius: 50%;
-  background: red;
   margin-right: 1rem;
   overflow: hidden;
 `;
