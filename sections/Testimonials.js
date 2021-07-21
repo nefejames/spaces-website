@@ -1,8 +1,7 @@
-import styled from "styled-components";
-import Image from "next/image";
-import { SemiBoldText, SmallText } from "../styles/styles";
 import { SectionLayout } from "../Layout";
 import { TestimonialCard } from "../components/Cards";
+import avatar1 from "../public/images/avatars/avatar1.jpg";
+import avatar2 from "../public/images/avatars/avatar2.jpg";
 
 const testimonialsData = [
   {
@@ -11,7 +10,7 @@ const testimonialsData = [
       "Every single person comes away and says - wow that's a really slick experience, that was so easy to use. I feel so much less stressed as I now know we're doing everything by the book.",
     name: "Monkey D Luffy",
     position: "CEO, Pirates Schibukai",
-    imageUrl: "/images/avatars/avatar1.jpg",
+    img: avatar1,
   },
   {
     id: 2,
@@ -19,7 +18,7 @@ const testimonialsData = [
       "I feel so much less stressed  as I now know we're doing everything by the book.",
     name: "Nico Robin",
     position: "COO, Amazon Enterprises",
-    imageUrl: "/images/avatars/avatar2.jpg",
+    img: avatar2,
   },
 ];
 

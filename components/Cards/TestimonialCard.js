@@ -2,15 +2,21 @@ import styled from "styled-components";
 import Image from "next/image";
 import { SemiBoldText, SmallText } from "../../styles/styles";
 
-export default function TestimonialCard({ review, name, position, imageUrl }) {
+export default function TestimonialCard({ review, name, position, img }) {
   return (
     <StyledTestimonialBox>
       <TestimonialCopy>
-        <SemiBoldText> "{review}" </SemiBoldText>
+        <SemiBoldText> &quot;{review}&quot; </SemiBoldText>
       </TestimonialCopy>
       <TestimonialDetails>
         <CircularImageBox>
-          <Image src={imageUrl} width={50} height={50} />
+          <Image
+            src={img}
+            alt="person"
+            placeholder="blur"
+            layout="fill"
+            objectFit="cover"
+          />
         </CircularImageBox>
         <PersonInfoBox>
           <PersonName>{name}</PersonName>
@@ -45,9 +51,10 @@ const PersonName = styled(SmallText)`
 `;
 
 const CircularImageBox = styled.div`
-  /* width: 50px;
-  height: 50px; */
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 1rem;
   overflow: hidden;
+  position: relative;
 `;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Image from "next/image";
 import { SmallText } from "../styles/styles";
 import { SectionLayout } from "../Layout";
+import Logo from "../Logo";
 
 const FooterLinksColumn = ({ link }) => (
   <FooterLI>
@@ -31,13 +32,7 @@ export default function Footer() {
         <FooterGridWrapper>
           {/* CHILD ONE */}
           <FooterGridChild>
-            <Image
-              src="/logo-white.svg"
-              alt="Spaces Logo"
-              width={82}
-              height={30}
-            />
-
+            <Logo />
             <FooterCopy>
               <FooterSmallText>
                 The best design for your web studio website. Vitae nulla nunc
@@ -85,8 +80,12 @@ export default function Footer() {
 
 const StyledFooter = styled.footer`
   background: #232424;
-  color: #ffffff;
+  color: #fff;
   padding: 1rem 0;
+
+  svg {
+    fill: #fff;
+  }
 `;
 
 const FooterSectionLayout = styled(SectionLayout)`
